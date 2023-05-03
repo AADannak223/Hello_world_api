@@ -14,7 +14,6 @@ def homepage():
 def hello():
     try:
         language = request.args.get('language').lower()
-        print(language, "language++++++++++++")
         if language == "hindi":
             response = {
               "message": {
